@@ -225,6 +225,9 @@ capture หน้าจอผลลัพธ์คำสั่ง `dart run buil
 บันทึกผลลัพธ์ที่นี่
 ```
 
+<img width="653" height="117" alt="image" src="https://github.com/user-attachments/assets/69db31d0-fa69-43e4-a9ff-2f3828624e6a" />
+
+
 ---
 
 ## ส่วนที่ 4: สร้างฟีเจอร์ "รายการโปรด" (Favorites) ตั้งแต่ต้น
