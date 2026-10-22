@@ -57,6 +57,50 @@
 
 ```text
 บันทึกผลลัพธ์ที่นี่
+
+import 'package:drift/drift.dart';
+
+// -------------------------------------------------------------
+// 1. ตารางเก็บรายการสินค้าที่ถูกใจ (FavoriteProducts)
+// -------------------------------------------------------------
+class FavoriteProducts extends Table {
+  // ใช้ ID สินค้าจากเซิร์ฟเวอร์เป็น Primary Key เพื่อป้องกันการกดถูกใจซ้ำ
+  IntColumn get productId => integer()();
+  
+  // ชื่อสินค้า
+  TextColumn get name => text().withLength(min: 1, max: 255)();
+  
+  // ราคาสินค้า รองรับทศนิยม
+  RealColumn get price => real()();
+  
+  // URL รูปภาพสำหรับแคชไว้แสดงผลออฟไลน์
+  TextColumn get imageUrl => text()();
+  
+  // บันทึกเวลาที่กดถูกใจ เพื่อใช้ Order By ล่าสุด
+  DateTimeColumn get likedAt => dateTime().withDefault(currentDateAndTime)();
+
+  @override
+  Set<Column> get primaryKey => {productId};
+}
+
+// -------------------------------------------------------------
+// 2. ตารางเก็บร่างประกาศขายสินค้าจาก AI (ProductDrafts)
+// -------------------------------------------------------------
+class ProductDrafts extends Table {
+  // รหัสร่างประกาศ รันเลขอัตโนมัติในเครื่อง
+  IntColumn get id => integer().autoIncrement()();
+  
+  // ข้อมูลที่ AI สร้างให้อาจยังไม่สมบูรณ์ จึงอนุญาตให้เป็น null ได้
+  TextColumn get title => text().nullable()();
+  TextColumn get category => text().nullable()();
+  TextColumn get description => text().nullable()();
+  
+  // Path รูปภาพในเครื่อง จำเป็นต้องมีเสมอเพราะ AI วิเคราะห์มาจากรูปนี้
+  TextColumn get localImagePath => text()();
+  
+  // เวลาที่แก้ไขล่าสุด
+  DateTimeColumn get updatedAt => dateTime().withDefault(currentDateAndTime)();
+}
 ```
 
 
