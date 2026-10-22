@@ -118,6 +118,12 @@ class ProductDrafts extends Table {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+<img width="801" height="378" alt="image" src="https://github.com/user-attachments/assets/03f24ea3-b39b-48fd-b598-9cc526e31a65" />
+<img width="798" height="233" alt="image" src="https://github.com/user-attachments/assets/c341f549-3d3c-4a44-89f6-7df972bb2132" />
+<img width="805" height="308" alt="image" src="https://github.com/user-attachments/assets/c2730d29-bba7-4575-95d5-d56e8b93abc3" />
+<img width="802" height="368" alt="image" src="https://github.com/user-attachments/assets/f8873282-80ff-41ea-af6c-132b59f94830" />
+<img width="786" height="261" alt="image" src="https://github.com/user-attachments/assets/7e949f30-e3ce-4750-8cc2-4724b7111274" />
+
 
 ---
 
