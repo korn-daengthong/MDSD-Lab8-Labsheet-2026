@@ -354,6 +354,11 @@ items: const [
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
+<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/a7e55bed-4a94-4c82-83ba-07e312c84de9" />
+<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/40f782ca-ecdc-427c-aeb3-4b03e7ba4f82" />
+<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/1f794b35-8b28-41c8-a51d-91150fe658b7" />
+<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/5f2809ee-bab2-43e4-9e11-6a7bb9d5e0cb" />
+<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/cbbcc2a3-ac5b-427b-8573-8e0ae29e68f9" />
 
 ---
 
@@ -404,11 +409,7 @@ class SellItemPage extends StatefulWidget {
 ```text
 บันทึกผลลัพธ์ที่นี่
 ```
-<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/3ecc8921-c785-45a6-86bb-b513733adc98" />
-<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/d1baf0a5-2c2b-4ca0-80d1-0f63308c35f9" />
-<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/b36f8571-5a52-4c99-9f6c-cbac13518578" />
-<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/e687f92d-4eee-4233-a9b9-8337b7b0816c" />
-<img width="964" height="2149" alt="image" src="https://github.com/user-attachments/assets/716c27bc-e915-4fbb-bb15-ae6e3f5a045b" />
+
 
 ---
 
